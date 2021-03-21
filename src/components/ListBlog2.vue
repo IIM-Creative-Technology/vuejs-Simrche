@@ -10,10 +10,10 @@
             </p>
         </div>
         <div>
-            <router-link :to="'/test/' + index"><h2>Voir plus</h2></router-link>
-            
+            <router-link :to="'/article/' + index"><h2>Voir plus</h2></router-link>
         </div>
     </div>
+
   </div>
 </div>
 </template>

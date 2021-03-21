@@ -34,11 +34,11 @@ const routes = [
     component: () => import('../views/NewPage')
 
   },
-  {
-    path: '/article',
-    name: 'Article',
-    component: () => import('../views/BlogIndex.vue'),
-  },
+  // {
+  //   path: '/article',
+  //   name: 'Article',
+  //   component: () => import('../views/BlogIndex.vue'),
+  // },
   {
     path: '/register',
     name: 'Register',
@@ -58,9 +58,9 @@ const routes = [
 
   },
   {
-    path: '/test/:id',
-    name: 'Test',
-    component: () => import('../views/Test.vue')
+    path: '/article/:id',
+    name: 'Article',
+    component: () => import('../views/Article.vue')
 
   },
 ]

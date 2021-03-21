@@ -35,8 +35,8 @@ const routes = [
 
   },
   {
-    path: '/blog:title',
-    name: 'BlogIndex',
+    path: '/article',
+    name: 'Article',
     component: () => import('../views/BlogIndex.vue'),
   },
   {
@@ -55,6 +55,12 @@ const routes = [
     path: '/profile',
     name: 'Profile',
     component: () => import('../views/Profile.vue')
+
+  },
+  {
+    path: '/test/:id',
+    name: 'Test',
+    component: () => import('../views/Test.vue')
 
   },
 ]

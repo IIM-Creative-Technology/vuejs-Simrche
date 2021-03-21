@@ -1,12 +1,12 @@
 <template>
 <div>
 <div>
-  <img class="imgArticle" v-bind:src="this.$store.getters.Article[0][4]">
-  <h2>{{this.$store.getters.Article[0][0]}}</h2>
+  <!-- <img class="imgArticle" v-bind:src="this.$store.getters.Article[0][4]"> -->
+  <!-- <h2>{{this.$store.getters.Article[0][0]}}</h2> -->
 </div>
 <div>
   <p>
-    {{this.$store.getters.Article[0][3]}}
+    <!-- {{this.$store.getters.Article[0][3]}} -->
   </p>
 </div>
   <div class="bas_info">
